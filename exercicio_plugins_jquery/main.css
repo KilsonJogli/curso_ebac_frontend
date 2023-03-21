@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 40px;
+}
+
+header img {
+    height: 44px;
+    margin-right: 16px;
+}
+
+header h1 {
+    font-size: 42px;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-campo input,
+button {
+    width: 100%;
+    padding: 8px;
+}
+
+button {
+    max-width: 120px;
+    background-color: #119759;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size:16px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
