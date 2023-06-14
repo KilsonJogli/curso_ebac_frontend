@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Booststrap avançado</title>
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <style>
+
+        .container .carousel {
+            margin-bottom: 70px;
+        }
+
+        .container .card {
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="carousel slide" data-bs-ride="carousel" id="carousel-exemplo">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2500">
+                    <img class="d-block w-100" src="./images/galera (2).jpg" alt="Reunião com pessoas sentadas em uma mesa">
+                    <div class="carousel-caption">
+                        <h2>Foto de reunião</h2>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img class="d-block w-100" src="./images/povo(2).jpg" alt="Foto de 5 pessoas em frente a um notebook">
+                    <div class="carousel-caption">
+                        <h2>Foto de reunião</h2>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2500">
+                    <img class="d-block w-100" src="./images/reuni (2).jpg" alt="Foto de pessoas em reunião">
+                    <div class="carousel-caption">
+                        <h2>Foto de reunião </h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-slide="prev" class="carousel-control-prev" type="button" data-bs-target="#carousel-exemplo">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-slide="next" class="carousel-control-next" type="button" data-bs-target="#carousel-exemplo">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button class="active" data-bs-slide-to="0" data-bs-target="#carousel-exemplo" type="button"></button>
+                <button data-bs-slide-to="1" data-bs-target="#carousel-exemplo" type="button"></button>
+                <button data-bs-slide-to="2" data-bs-target="#carousel-exemplo" type="button"></button>
+            </div>
+        </div>
+            <div class="row">
+            <div class="col-lg-4 col-md-6 cold-sm-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="./images/escr.jpg" alt="Foto de um escritório"/>
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur velit minima excepturi sed neque enim culpa harum in hic, exercitationem illum. Velit quia maxime aliquid nemo! Perspiciatis consectetur dignissimos repudiandae!
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <div class="card-footer">
+                        Postado em <time>14/06/23 às 08:44</time>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="./images/mul.jpg" alt="Foto de duas mulheres em frente ao um notebook" />
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h4>
+                        <h5 class="card-subtitle">Subtítulo do card</h5>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum aliquid doloribus voluptates fugit suscipit dignissimos. Cumque ipsum nisi adipisci praesentium, modi quaerat earum deleniti vitae, placeat, doloremque consequatur!
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <div class="card-footer">
+                        Postado em <time>14/06/23 às 08:44</time>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="card text-center">
+                    <div class="card-header">
+                        Cabeçalho do card
+                    </div>
+                    <img src="./images/trilh.jpg" alt="Foto de trilho de trêm" />
+                    <div class="card-body">
+                        <h4 class="card-title">Título do card</h5>
+                        <h5 class="card-subtitle">Subtítulo do card</h4>
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus impedit saepe ut ullam animi id itaque ad fuga, soluta dolorum, iusto accusamus debitis porro? Expedita deleniti possimus esse pariatur qui doloremque consequatur!
+                        </p>
+                        <a href="#" class="btn btn-primary">Leia mais</a>
+                    </div>
+                    <div class="card-footer">
+                        Postado em <time>14/06/23 às 08:44</time>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
